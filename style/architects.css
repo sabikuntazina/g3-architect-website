@@ -117,7 +117,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px auto 50px auto;
+  /* margin: 50px 0 50px 0; */
   gap: 100px;
   /* border: 2px solid red; */
 }
@@ -162,7 +162,6 @@ header {
   width: 220px;
   text-align: center;
   position: relative;
-  border: 2px solid blue;
 }
 .btn-container > p {
   margin: 8px 0;
@@ -257,7 +256,7 @@ footer>p{
   .content-parent {
     flex-direction: column-reverse;
     gap: 0;
-    padding: 20px;
+    /* padding: 20px; */
   }
   .content-parent .image-container {
     width: 80%;
