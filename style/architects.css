@@ -238,9 +238,10 @@ footer>p{
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
-  container1 {
-    width: 100%;
-  }
+ .container1 {
+
+  width: 85%;
+}
   .navbar,
   .nav-link,
   .teams {
@@ -269,7 +270,7 @@ footer>p{
   }
   .content .features-card {
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
   }
 
   /* some facts  */
